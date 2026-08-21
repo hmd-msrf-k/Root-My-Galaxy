@@ -545,11 +545,11 @@ class InstallViewModel(application: Application) : AndroidViewModel(application)
 
     companion object {
         private const val EXPLOIT_ATTEMPTS = "24"
-        private const val P0_ATTEMPT_TIMEOUT_SEC = "45"
-        private const val EXPLOIT_ATTEMPT_TIMEOUT_SEC = "120"
-        private const val EXPLOIT_STALL_MILLIS = 90_000L
-        private const val EXPLOIT_TOTAL_MILLIS = 900_000L
         private const val HELPER_TIMEOUT_MILLIS = 120_000L
+        private const val P0_ATTEMPT_TIMEOUT_SEC = "600"
+        private const val EXPLOIT_ATTEMPT_TIMEOUT_SEC = "1800"
+        private const val EXPLOIT_STALL_MILLIS = 300_000L
+        private const val EXPLOIT_TOTAL_MILLIS = 3600_000L
         private const val INSTALL_RECEIPT = "install_receipt"
         private const val RECEIPT_BOOT_TOKEN = "kernel_boot_id"
         private const val RECEIPT_VERIFIED = "verified"
