@@ -137,9 +137,9 @@ class PayloadRepository(private val context: Context) {
 
     companion object {
         private const val COMMIT_API_URL =
-            "https://api.github.com/repos/hmd-msrf-k/Root-My-Galaxy-Payloads/git/ref/heads/gts9fewifi-X510XXSEEZG3"
+            "https://api.github.com/repos/hmd-msrf-k/Root-My-Galaxy-Tab-S9FE-Payloads/git/ref/heads/gts9fewifi-X510XXSEEZG3"
         private const val RAW_REPOSITORY =
-            "https://raw.githubusercontent.com/hmd-msrf-k/Root-My-Galaxy-Payloads"
+            "https://raw.githubusercontent.com/hmd-msrf-k/Root-My-Galaxy-Tab-S9FE-Payloads"
         private const val MUTABLE_RAW_PREFIX = "$RAW_REPOSITORY/gts9fewifi-X510XXSEEZG3/"
         private const val MAX_COMMIT_RESPONSE_BYTES = 16 * 1024
         private const val MAX_MANIFEST_BYTES = 256 * 1024
